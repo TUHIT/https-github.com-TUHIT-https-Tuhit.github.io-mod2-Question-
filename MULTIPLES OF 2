@@ -1,0 +1,23 @@
+<! DOCTYPE html>
+<html>
+<head>
+
+    <head>
+        <script>
+var n = 10;
+
+function start() {
+    var pre = document.getElementById("my-output");
+    pre.innerHTML = "";
+    for (var i=1 ; i<=n ; i++) {
+        pre.innerHTML += i + " * 2 = " + (i * 2) + "\n";
+    }
+}
+        </script>
+    </head>
+    <body>
+        <pre id="my-output">Click the button to see the resulting table.</pre>
+        <button onclick="start()">Calculate</button>
+    </body>
+</html>
+	
